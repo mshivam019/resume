@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Present",
       description:
-        "Designed and implemented an internal dashboard feature for managing recruiter job details, assignments. Contributed significantly to the TTT Academy website by building the complete user onboarding flow and user edit page. Recently developed a new app using React Native, Expo, and Paper, facilitating employee management tasks such as login, logout, and leave management, while also functioning as a timely reminder system. Technologies: React, Nextjs, MySQL, React Native",
+        "Designed and implemented an internal dashboard feature for managing recruiter job details, assignments, and other relevant information. Leveraged React JavaScript, Axios, Chakra UI.,,,Recently developed a new app using React Native, Expo, and Paper, facilitating employee management tasks such as login, logout, and leave management, while also functioning as a timely reminder system.,,,Contributed significantly to the TTT Academy website by building the complete user onboarding flow and user edit page using Next.js, Axios, and Styled Components.",
     },
     {
       company: "Google Supported Android Internship - Smartbridge",
@@ -57,9 +57,8 @@ export const RESUME_DATA = {
       title: "Android Intern",
       start: "2022",
       end: "2022",
-      description: `Completed Android Basics course and attended 8-weeks of training, learning about building android apps using Kotlin.
-        Built a grocery-list app using Kotlin and XML for my final project with the help of Coroutines, MVVM and ROOM database.
-        Learnt about Step-by-Step procedure to develop mobile application from wire-framing to data persistence. Technologies: Android, Kotlin, Lottie, XML`,
+      description:
+        "Completed Android Basics course and attended 8-weeks of training, learning about building android apps using Kotlin.,,,Built a grocery-list app using Kotlin and XML for my final project with the help of Coroutines, MVVM and ROOM database.,,,Learnt about Step-by-Step procedure to develop mobile application from wire-framing to data persistence.",
     },
     {
       company: "Future Ready Talent Cloud Internship",
@@ -68,9 +67,8 @@ export const RESUME_DATA = {
       title: "Azure Intern",
       start: "2022",
       end: "2022",
-      description: `In the Azure Services technology track, I learnt about the roles and duties of an Azure Dev-ops Engineer Associate.
-        My final project was a tourism website with a Chat-Bot with CI/CD using GitHub, hosted on Azure Static Web-Apps and Chat-Bot learns from the user dynamically using QnA Maker hosted on Azure Bot Services.
-        Experienced the daily hands-on tasks of an Azure Developer (AZ-204) like utilizing Azure Storage, implementing authentication and authorization. Technologies: Azure, Azure Static Web-Apps, Azure Bot Services, QnA Maker, GitHub, HTML, CSS, JavaScript`,
+      description:
+        "In the Azure Services technology track, I learnt about the roles and duties of an Azure Dev-ops Engineer Associate.,,,My final project was a tourism website with a Chat-Bot with CI/CD using GitHub, hosted on Azure Static Web-Apps and Chat-Bot learns from the user dynamically using QnA Maker hosted on Azure Bot Services.,,,Experienced the daily hands-on tasks of an Azure Developer (AZ-204) like utilizing Azure Storage, implementing authentication and authorization.",
     },
   ],
   skills: [
@@ -125,7 +123,7 @@ export const RESUME_DATA = {
       title: "Mood Swinger",
       techStack: ["Firebase", "React", "Tailwind CSS", "Firestore", "OAuth"],
       description:
-        "Mood tracking web-app with features like mood history, notes, and triggers identification.",
+        "Mood tracking web-app with mood history, notes, and triggers identification.",
       link: {
         label: "Live Demo",
         href: "https://mood-swinger.vercel.app/",
@@ -135,7 +133,7 @@ export const RESUME_DATA = {
       title: "Social Butterfly",
       techStack: ["MongoDB", "Mantine", "Data API", "Nextjs", "Auth0"],
       description:
-        "Twitter-like web-app for sending, editing, liking, and sharing Flutters (Tweets).",
+        "Twitter like web-app for sending, editing, liking, and sharing Flutters (Tweets).",
       link: {
         label: "Live Demo",
         href: "https://social-butterfly.vercel.app/",
@@ -153,13 +151,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Expo 2048",
-      techStack: [
-        "React",
-        "React Native",
-        "Expo",
-        "Expo Notifications",
-        "React Native Web",
-      ],
+      techStack: ["React", "React Native", "Expo"],
       description:
         "2048 game with reminders created with Expo (React Native) for web and Android.",
       link: {
@@ -257,7 +249,7 @@ export const RESUME_DATA = {
     {
       title: "Pixel Store",
       techStack: ["Java", "XML"],
-      description: "Java application for buying a phone.",
+      description: "Java application for buying a phone in EMIs.",
       link: {
         label: "GitHub Repository",
         href: "https://github.com/mshivam019/Pixel-Store",

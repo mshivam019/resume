@@ -132,7 +132,11 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                {work.description.split(",,,").map((line) => (
+                  <li key={line.trim()}>
+                    {line}
+                  </li>
+                ))}
                 </CardContent>
               </Card>
             );
