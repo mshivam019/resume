@@ -38,6 +38,18 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2024",
     },
+    {
+      school: "St.Mary's Centenary Junior College",
+      degree: "High School",
+      start: "2018",
+      end: "2020",
+    },
+    {
+      school: "Andhra Association English School",
+      degree: "Secondary School",
+      start: "2007",
+      end: "2018",
+    },
   ],
   work: [
     {
@@ -94,6 +106,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Portfolio",
+      techStack: ["Nextjs", "Tailwind CSS", "Sanity"],
+      description:
+        "My Portfolio website with Sanity CMS managed content and ISG for blazing fast performance.",
+      link: {
+        label: "Live Demo",
+        href: "https://mshivam019.vercel.app/",
+      },
+    },
+    {
       title: "Hospital Management System",
       techStack: [
         "Java",
@@ -133,7 +155,7 @@ export const RESUME_DATA = {
       title: "Social Butterfly",
       techStack: ["MongoDB", "Mantine", "Data API", "Nextjs", "Auth0"],
       description:
-        "Twitter like web-app for sending, editing, liking, and sharing Flutters (Tweets).",
+        "Twitter like web-app for sending, editing, liking, and sharing Flutters.",
       link: {
         label: "Live Demo",
         href: "https://social-butterfly.vercel.app/",
@@ -141,7 +163,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Golang Notes",
-      techStack: ["Golang", "JWT", "Postgres", "Swagger", "Gorm"],
+      techStack: ["Golang", "JWT", "Postgres", "Swagger"],
       description:
         "Golang Backend for CRUD operations on notes using REST APIs.",
       link: {
@@ -161,9 +183,9 @@ export const RESUME_DATA = {
     },
     {
       title: "CC-Instagram",
-      techStack: ["Jetpack Compose", "Kotlin", "Firebase"],
+      techStack: ["Jetpack Compose", "Kotlin"],
       description:
-        "Instagram Clone made for Compose Camp using Jetpack Compose and Kotlin.",
+        "Instagram Clone made for android with 8 identical screens.",
       link: {
         label: "GitHub Repository",
         href: "https://github.com/mshivam019/CC-Instagram",
@@ -182,10 +204,20 @@ export const RESUME_DATA = {
       title: "Habit Tracker",
       techStack: ["Flutter", "Dart"],
       description:
-        "Habit Tracker app which tracks daily habits with a GitHub contributions timeline-inspired heatmap.",
+        "Habit Tracker app which tracks daily habits with a GitHub style heatmap.",
       link: {
         label: "GitHub Repository",
         href: "https://github.com/mshivam019/habit-tracker",
+      },
+    },
+    {
+      title: "Star Wars Weather App",
+      techStack: ["Angular", "PWA"],
+      description:
+        "Weather with a star wars planet background matching the temperature.",
+      link: {
+        label: "GitHub Repository",
+        href: "https://github.com/mshivam019/star-wars-weather-app",
       },
     },
     {
@@ -195,16 +227,6 @@ export const RESUME_DATA = {
       link: {
         label: "GitHub Repository",
         href: "https://github.com/mshivam019/Grocery-List",
-      },
-    },
-    {
-      title: "Star Wars Weather App",
-      techStack: ["Angular", "PWA"],
-      description:
-        "Fetches weather data and displays it in a UI with a planet background matching the temperature.",
-      link: {
-        label: "GitHub Repository",
-        href: "https://github.com/mshivam019/star-wars-weather-app",
       },
     },
     {
@@ -230,7 +252,7 @@ export const RESUME_DATA = {
       title: "Flappy Bird",
       techStack: ["Unity3D", "C#"],
       description:
-        "2D game of Flappy Bird created in Unity and works on both Android and Windows.",
+        "2D game of Flappy Bird created in Unity.",
       link: {
         label: "GitHub Repository",
         href: "https://github.com/mshivam019/Flappy-Bird",
@@ -244,15 +266,6 @@ export const RESUME_DATA = {
       link: {
         label: "GitHub Repository",
         href: "https://github.com/mshivam019/Meow-Speech",
-      },
-    },
-    {
-      title: "Pixel Store",
-      techStack: ["Java", "XML"],
-      description: "Java application for buying a phone in EMIs.",
-      link: {
-        label: "GitHub Repository",
-        href: "https://github.com/mshivam019/Pixel-Store",
       },
     },
     {
