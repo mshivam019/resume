@@ -131,12 +131,12 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                {work.description.split(",,,").map((line) => (
-                  <li key={line.trim()}>
-                    {line}
-                  </li>
-                ))}
+                <CardContent className="mt-2 pl-4 text-xs">
+                  <ul className="list-outside list-disc">
+                    {work.description.split(",,,").map((line) => (
+                      <li key={line.trim()}>{line}</li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             );
