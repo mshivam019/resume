@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about: "Full Stack Engineer, Trying to learn new things everyday.",
   summary:
     "Hello! I am currently an SDE Intern at Terribly Tiny Tales, equipped with holistic knowledge in software development, IT support, and UX design. Additionally, I have experience in DevOps, Android, and Web Development. My objective is to pursue a growth-oriented and challenging career where I can contribute my knowledge and skills to the organization, while enhancing my experience through continuous learning and teamwork.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/71921992?v=4",
+  avatarUrl: "https://media.licdn.com/dms/image/D4D03AQFtgOGY_msPdQ/profile-displayphoto-shrink_400_400/0/1675579269261?e=1711584000&v=beta&t=WSs0sw0zyIUiP9tsERODaqj2dnJX3v7hv6IO3kb4Uds",
   personalWebsiteUrl: "https://mshivam019.vercel.app/",
   contact: {
     email: "mshivam019@gmail.com",
